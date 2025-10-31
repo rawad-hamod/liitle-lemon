@@ -1,11 +1,24 @@
-
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div>
-     Home Page
-    </div>
+    <>
+      <header>
+        {" "}
+        logo{" "}
+        <nav>
+          {" "}
+          <ul>
+            <li>home</li>
+            <li>meals</li>
+            <li>reserve a table</li>
+            <li>contact</li>
+          </ul>
+        </nav>
+      </header>
+      <main></main>
+      <footer></footer>
+    </>
   );
 }
 
