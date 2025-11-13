@@ -1,23 +1,20 @@
+import { BrowserRouter , Routes , Route } from "react-router-dom";
 import "./App.css";
+import Home from "./pages/Home";
+import BookingTable from "./pages/BookingTable";
+
 
 function App() {
   return (
     <>
-      <header>
-        {" "}
-        logo{" "}
-        <nav>
-          {" "}
-          <ul>
-            <li>home</li>
-            <li>meals</li>
-            <li>reserve a table</li>
-            <li>contact</li>
-          </ul>
-        </nav>
-      </header>
-      <main></main>
-      <footer></footer>
+    
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/booking-a-table" element={<BookingTable/>}/>
+    </Routes>
+    </BrowserRouter>
+      
     </>
   );
 }
