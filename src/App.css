@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    all: unset;
+}
+ul li{
+    list-style: none;
+}
