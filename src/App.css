@@ -311,3 +311,17 @@ footer ul li{
 .hidden{
   display: none;
 }
+.error {
+  color: #d32f2f;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+input:invalid, select:invalid {
+  border-color: #d32f2f;
+}
+
+.btnReceive input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
